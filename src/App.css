@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quintessential&display=swap");
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.homePageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#coder_img {
+  margin-right: 15px;
+}
+
+.logoWrapper {
+  display: flex;
+  margin: 20px;
+}
+
+#logo-title-text {
+  font-size: 18px;
+  font-family: "Press Start 2P", cursive;
+}
+#logo-des-text {
+  display: block;
+  font-size: 20px;
+  color: greenyellow;
+  font-family: "Quintessential", cursive;
+  margin-top: 10px;
+}
+
+.formWrapper {
+  background-color: rgb(39, 39, 53);
+  border-radius: 10px;
+  padding: 20px;
+  width: 450px;
+  max-width: 90%;
+}
+
+.mainLabel {
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+.inputBox {
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(216, 216, 203);
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn {
+  background-color: greenyellow;
+  align-content: flex-end;
+  width: 100px;
+  margin-left: auto;
+}
+.joinBtn:hover,
+.copyBtn:hover {
+  background-color: rgb(108, 168, 18);
+}
+
+.createInfo {
+  margin: 0 auto;
+  font-size: 17px;
+  margin-top: 20px;
+}
+.createNewBtn {
+  text-decoration: none;
+  color: greenyellow;
+  transition: all 0.3s ease-in-out;
+}
+
+#github_link {
+  text-decoration: none;
+  color: greenyellow;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+#github_link:hover {
+  color: rgb(108, 168, 18);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  height: 100vh;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  color: white;
+  background-color: rgb(39, 39, 53);
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.client {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  align-items: center;
+}
+
+.userName {
+  margin-top: 10px;
+}
+.logoWrapper {
+  border-bottom: 2px solid gray;
+  padding-bottom: 15px;
+}
+.copyBtn {
+  font-family: "Times New Roman", Times, serif;
+  background-color: greenyellow;
+}
+.leaveBtn {
+  margin-top: 10px;
+  background-color: rgb(235, 71, 71);
+  font-family: "Times New Roman", Times, serif;
+}
+.leaveBtn:hover {
+  background-color: red;
+}
+
+.CodeMirror {
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 1.6;
+  min-height: calc(100vh - 20px);
+}
